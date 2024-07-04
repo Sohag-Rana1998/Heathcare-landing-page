@@ -140,27 +140,10 @@ nav {
 
 /* Banner style */
 
-.banner {
-  background-color: rgba(156, 156, 159, 0.3);
-  margin-top: 40px;
-}
 
-.banner::before {
-  content: '';
-  position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  background: inherit;
-  backdrop-filter: blur(250px);
-  z-index: 0;
-}
 
-.banner .banner-image-container {
-  position: relative;
-  z-index: 1;
-}
+
+
 
 
 
@@ -326,7 +309,6 @@ nav {
 
 .section2-right-badge {
   padding: 30px 20px;
-
   width: 60%;
   position: absolute;
   bottom: 5%;
@@ -374,4 +356,126 @@ nav {
   border: 1px solid var(--text-80, #343268);
   background: #FFFFF5;
   color: #020043;
+}
+
+
+
+/* Section 04 */
+.section4 {
+  margin-top: 200px;
+
+}
+
+.section4-content {
+  display: flex;
+  justify-content: space-between;
+  gap: 24px;
+}
+
+.section4-left {
+  border-radius: 16px;
+  background: var(--Secondary-Color, #ecece9);
+  padding: 20px;
+}
+
+.section4-head {
+  margin-bottom: 30px;
+}
+
+.section4-bottom {
+  margin-top: 15px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.designation {
+  font-weight: 400 !important;
+}
+
+.section4-content h5 {
+  margin-bottom: 15px;
+
+}
+
+/* SECTION 5 */
+
+.section5 {
+  margin-top: 200px;
+}
+
+
+/* SECTION 6*/
+
+.section6 {
+  margin-top: 200px;
+}
+
+.section6-conatiner {
+  min-height: 480px;
+  border-radius: 32px;
+  background: radial-gradient(648.07% 142.88% at 98.23% 78.35%, #020043 0%, rgba(2, 0, 67, 0.30) 100%), url('/images/Rectangle\ 32.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-left: 5%;
+}
+
+.section6-conatiner h2,
+.section6-conatiner p {
+  color: #FFFF;
+}
+
+
+
+.section6-logo {
+  position: absolute;
+  right: 10%;
+  top: 10%;
+}
+
+.section6-button {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.learn-more {
+  margin-top: 15px;
+  background: none !important;
+  color: #FBFBFB;
+}
+
+footer {
+  background: var(--Text, #020043);
+  margin-top: 200px;
+
+}
+
+footer img {
+  margin-bottom: 15px;
+}
+
+footer p,
+footer ul li {
+  color: #FFFF !important;
+  margin-bottom: 10px;
+}
+
+.footer-content {
+  min-height: 450px;
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+  align-items: center;
+}
+
+.foooter-icons .fa-brands {
+  color: #FFFF;
+  font-size: 30px;
+  margin-right: 10px;
 }
